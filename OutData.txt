@@ -1,0 +1,56 @@
+# Confusion Matrix #1 ( Random Forest )
+Confusion Matrix and Statistics
+
+            Reference
+Prediction   democrat republican
+  democrat         51          0
+  republican        2         33
+                                          
+               Accuracy : 0.9767          
+                 95% CI : (0.9185, 0.9972)
+    No Information Rate : 0.6163          
+    P-Value [Acc > NIR] : 1.226e-15       
+                                          
+                  Kappa : 0.9514          
+                                          
+ Mcnemar's Test P-Value : 0.4795          
+                                          
+            Sensitivity : 0.9623          
+            Specificity : 1.0000          
+         Pos Pred Value : 1.0000          
+         Neg Pred Value : 0.9429          
+             Prevalence : 0.6163          
+         Detection Rate : 0.5930          
+   Detection Prevalence : 0.5930          
+      Balanced Accuracy : 0.9811          
+                                          
+       'Positive' Class : democrat        
+
+# Confusion Matrix #2 ( K Nearest Neighbors )
+Confusion Matrix and Statistics
+
+            Reference
+Prediction   democrat republican
+  democrat         47          2
+  republican        6         31
+                                         
+               Accuracy : 0.907          
+                 95% CI : (0.8249, 0.959)
+    No Information Rate : 0.6163         
+    P-Value [Acc > NIR] : 1.187e-09      
+                                         
+                  Kappa : 0.8077         
+                                         
+ Mcnemar's Test P-Value : 0.2888         
+                                         
+            Sensitivity : 0.8868         
+            Specificity : 0.9394         
+         Pos Pred Value : 0.9592         
+         Neg Pred Value : 0.8378         
+             Prevalence : 0.6163         
+         Detection Rate : 0.5465         
+   Detection Prevalence : 0.5698         
+      Balanced Accuracy : 0.9131         
+                                         
+       'Positive' Class : democrat       
+                                         
